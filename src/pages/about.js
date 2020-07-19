@@ -1,17 +1,12 @@
 import React from "react"
 import Header from "../components/header"
-import Content from "../components/content"
-
 import { Link } from "gatsby"
 
 
-export default function Home() {
+export default function About() {
   return <div>
-    <Header />
-    <Content />
-
+      <Header />
+    THis is about
     <Link to="/about/">About</Link>
-
-
   </div>
 }

@@ -1,0 +1,7 @@
+* { margin : 0; padding : 0;}
+body { background-color: #fff; font-family: 'Poppins', sans-serif !important;}
+.grads { background: rgb(131,58,180);
+    background: linear-gradient(254deg, rgba(131,58,180,1) 14%, rgba(171,49,130,1) 28%, rgba(204,41,148,1) 51%, rgba(253,29,29,1) 76%, rgba(252,176,69,1) 100%);
+    text-align: center; color : #fff;
+    padding : 40px;
+}
