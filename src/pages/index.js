@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../components/header"
-import Content from "../components/content"
+import Answers from "../components/answers"
 
 import { Link } from "gatsby"
 
@@ -8,7 +8,8 @@ import { Link } from "gatsby"
 export default function Home() {
   return <div>
     <Header />
-    <Content />
+
+    <Answers />
 
     <Link to="/about/">About</Link>
 
