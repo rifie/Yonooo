@@ -1,6 +1,7 @@
 import React from "react"
 import { Container } from 'react-bulma-components';
 import ReactDOM from 'react-dom';
+import styled from 'styled-components'
 
 let answers =[
 'As I see it, yes.',
@@ -31,15 +32,28 @@ function theAnswer() {
 var answer = answers[Math.floor(Math.random() * answers.length)];
 ReactDOM.render(answer,
     document.getElementById('answerDisplay'));
+    var anima = document.getElementById("answerDisplay");
+    anima.classList.toggle("focus-in-expand-fwd");
 };
 
+
+const TheButton = styled.a `
+font-size :1.5em;
+`
+const OneAnswer = styled.h2 `
+font-size : 3em; color : #222; margin : 30px 0 30px 0;
+`
+const Tagme = styled.p `
+color: #b4b4b4; font-size : 14px;
+`
 export default function Answers() {
   return <div>
 
       <Container>
-          <div id="answerDisplay"></div>
-      <button onClick={theAnswer}>
-      Klik Saya</button>
+          <Tagme>Just think about question. E.g "Do I need to go to shower?"</Tagme>
+          <OneAnswer><div id="answerDisplay"></div></OneAnswer>
+      <TheButton><a onClick={theAnswer} className="btn">tap me</a></TheButton>
+      
       </Container>
 
 

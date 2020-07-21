@@ -30,10 +30,7 @@ export default function Quote() {
   var quote = arrayQuotes[Math.floor(Math.random() * arrayQuotes.length)];
 
   function getQuoteItems(data) {
-    const QuoteItemsArray = [];
-    data.allQuoteItemsJson.edges.forEach(item =>
-        QuoteItemsArray.push(<p key={item.node.affirm}>{item.node.affirm}</p>)
-    );
+    var QuoteItemsArray = data.allQuoteItemsJson.edges.map(item => item.node.affirm);
     return QuoteItemsArray;
   }
 
@@ -45,4 +42,3 @@ export default function Quote() {
     </div>
   )
 }
-
