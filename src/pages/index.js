@@ -12,7 +12,7 @@ export default function Home() {
 
     <Answers />
 
-    {/* <Quote /> */}
+    <Quote />
 
     <Link to="/about/">About</Link>
 
