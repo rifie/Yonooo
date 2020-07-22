@@ -3,8 +3,6 @@ import { Container } from 'react-bulma-components';
 import styled from 'styled-components'
 import cathead from './yologo.png'
 
-
-
 const Logo = styled.h1`
 font-family: 'Poppins', sans-serif;
 font-weight: 700;
