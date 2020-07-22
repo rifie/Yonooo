@@ -22,7 +22,7 @@ export default function Quote() {
   //create Quote component based on query
   const Quote = ({affirm}) => (
     <div>
-      <h3>{quote}</h3>
+      <h3 class="affirms">{quote}</h3>
     </div>
   );
   

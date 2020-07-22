@@ -2,8 +2,8 @@ import React from "react"
 import { Container } from 'react-bulma-components'
 import Header from "../components/header"
 import Answers from "../components/answers"
-import Quote from "../components/quote"
 import styled from 'styled-components'
+import Footer from "../components/footer"
 
 import { Link } from "gatsby"
 
@@ -23,10 +23,13 @@ export default function Home() {
 
       
         <Answers />
-        <Quote />
         <Link to="/about/">About</Link>
         </Content>
       </Container>
+
+      <Footer>
+       
+      </Footer>
  
 
   </div>
