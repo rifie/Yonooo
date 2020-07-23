@@ -34,14 +34,14 @@ export default function Header(data) {
 <meta property="og:url" content="https://yonooo.xyz/"/>
 <meta property="og:title" content="Yonooo"/>
 <meta property="og:description" content="Your everyday decision maker tool. Please use it in dire situation. "/>
-<meta property="og:image" content="https://yonooo.xyz/static/IG2_xyz.jpg"/>
+<meta property="og:image" content="https://yonooo.xyz/IG2_xyz.jpg"/>
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="317" />
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://yonooo.xyz" />
 <meta property="twitter:title" content="Yonooo" />
 <meta property="twitter:description" content="Your everyday decision maker tool. Please use it in dire situation." />
-<meta property="twitter:image" content="https://yonooo.xyz/static/IG2_xyz.jpg" />
+<meta property="twitter:image" content="https://yonooo.xyz/IG2_xyz.jpg" />
 
 
 
