@@ -1,6 +1,8 @@
 import React from "react"
 import { Container } from 'react-bulma-components'
 import { useStaticQuery, graphql } from "gatsby"
+import horray from '../components/horray.png'
+import styled from 'styled-components'
 
 
 export default function Quote() {
@@ -18,6 +20,10 @@ export default function Quote() {
     `
   );
 
+  const Jump = styled.div`
+  width: 100%;
+  `
+  
   //create Quote component based on query
   const Quote = ({affirm}) => (
     <div>
@@ -36,6 +42,8 @@ export default function Quote() {
   return (
     <div>
       <Container>
+       
+        <Jump><img src={horray} alt="Horray" width="100"/></Jump>
         <Quote/>
       </Container>
     </div>
