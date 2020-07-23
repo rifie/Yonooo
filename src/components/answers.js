@@ -2,7 +2,6 @@ import React from "react"
 import { Container } from 'react-bulma-components';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components'
-import cathead from './yonooo_logo.png'
 
 let answers =[
 '"As I see it, yes."',
@@ -42,7 +41,7 @@ const TheButton = styled.a `
 font-size :1.5em;
 `
 const OneAnswer = styled.h2 `
-font-size : 3em; color : #222; margin : 30px 0 30px 0;  font-family: 'Gochi Hand', sans-serif;
+font-size : 2.8em; color : #222; margin : 30px 0 30px 0;  font-family: 'Gochi Hand', sans-serif;
 
 `
 const Tagme = styled.p `
@@ -54,7 +53,7 @@ export default function Answers() {
       <Container>
           <Tagme>Just think about question. E.g "Do I need to go to shower?"</Tagme>
           <OneAnswer><div id="answerDisplay"></div></OneAnswer>
-      <TheButton><a onClick={theAnswer} className="btn">tap me</a></TheButton>
+      <TheButton onClick={theAnswer} className="btn">tap me</TheButton>
       
       </Container>
 

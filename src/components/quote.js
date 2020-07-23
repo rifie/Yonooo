@@ -1,7 +1,6 @@
 import React from "react"
 import { Container } from 'react-bulma-components'
-import styled from 'styled-components'
-import { useStaticQuery, StaticQuery, Link, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 
 export default function Quote() {

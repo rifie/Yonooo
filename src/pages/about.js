@@ -3,11 +3,10 @@ import Header from "../components/header"
 import { Link } from "gatsby"
 import { Container } from 'react-bulma-components'
 import styled from 'styled-components'
-import Footer from "../components/footer"
 
 
-const Mycontent = styled.div`
-max-width: 600px; text-align: left; margin : auto; padding : 40px;
+const Mycontents = styled.div`
+max-width: 680px; text-align: left; margin : auto auto 60px auto; padding : 20px;
 `
 const Mycontentheader = styled.h2`
 font-family: 'Gochi Hand', sans-serif;
@@ -24,14 +23,21 @@ line-height : 24px;
 text-align : justify;
 `
 
-
+const Mylink = styled.div`
+color : #222;
+font-size : 16px;
+margin-top : 40px;
+line-height : 24px;
+border-top : solid #c8c8c8 1px;
+padding-top : 20px;
+`
 
 export default function About() {
   return <div>
       <Header />
 
       <Container>
-        <Mycontent>
+        <Mycontents>
           <Mycontentheader>About Yonooo</Mycontentheader>
       <Mycontentp>Yonooo, (comes from Yes or No, isn't obvious?) is a tool to help you decide everything in life on daily basis. Logic and irrationality couldn't help? Too much analyzing? Your feeling seems off? Please use Yonooo. Just think of a question and tap the button, in just a sec, you got the answer. Please use it in dire situation. Win-win. 
 </Mycontentp>
@@ -50,16 +56,14 @@ export default function About() {
 
 <Mycontentp>This app is available on Github~!</Mycontentp>
 
+<Mylink>
+<Link to="/" className="mr20">Back to Home</Link>
 
 <Link to="/about/">About</Link>
+</Mylink>
 
-</Mycontent>
+</Mycontents>
 </Container>
-
-<Footer>
-       
-       </Footer>
-
 
   </div>
 }

@@ -14,15 +14,11 @@ export default function Header() {
     return (
 
       <div className="grads">
-
         <Container>
-         <img src={cathead} width="60"/>
+         <a href="/" title="Yonooo"><img src={cathead} width="60" alt="Yonooo"/></a>
           <Logo>Yonooo</Logo>
           <p>Your everyday decision maker tool. Please use it in dire situation.</p>
         </Container>
-        
       </div>
-
     )
-
   }

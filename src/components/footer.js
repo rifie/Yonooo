@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <Container>
-        <Quote/>
+        <Quote />
       </Container>
     </div>
   )
