@@ -1,7 +1,6 @@
-import React from "react"
-import { Container } from 'react-bulma-components';
-import ReactDOM from 'react-dom';
 import styled from 'styled-components'
+import React from "react"
+import ReactDOM from 'react-dom';
 
 let answers =[
 '"As I see it, yes."',
@@ -28,6 +27,24 @@ let answers =[
 '"It is obvious."'
 ];
 
+const { Tagme, OneAnswer, TheButton } = newStyleAnswer();
+
+function newStyleAnswer() {
+  const TheButton = styled.a`
+font-size :1.5em;
+`;
+  const OneAnswer = styled.h4`
+font-size : 2.8em; 
+color : #222; 
+margin : 30px 0 30px 0;  
+font-family: 'Gochi Hand', sans-serif;
+`;
+  const Tagme = styled.small`
+color: #b4b4b4; font-size : 14px;
+`;
+  return { Tagme, OneAnswer, TheButton };
+}
+
 function theAnswer() {
 var answer = answers[Math.floor(Math.random() * answers.length)];
 ReactDOM.render(answer,
@@ -36,27 +53,10 @@ ReactDOM.render(answer,
     anima.classList.toggle("focus-in-expand-fwd");
 };
 
-
-const TheButton = styled.a `
-font-size :1.5em;
-`
-const OneAnswer = styled.h2 `
-font-size : 2.8em; color : #222; margin : 30px 0 30px 0;  font-family: 'Gochi Hand', sans-serif;
-
-`
-const Tagme = styled.p `
-color: #b4b4b4; font-size : 14px;
-`
 export default function Answers() {
   return <div>
-
-      <Container>
           <Tagme>Just think about question. E.g "Do I need to go to shower?"</Tagme>
           <OneAnswer><div id="answerDisplay"></div></OneAnswer>
-      <TheButton onClick={theAnswer} className="btn">tap me</TheButton>
-      
-      </Container>
-
-
+      <TheButton onClick={theAnswer} className="btn">ASK ME!</TheButton>
   </div>
 }

@@ -1,6 +1,6 @@
+import styled from 'styled-components'
 import React from "react"
 import { Container } from 'react-bulma-components';
-import styled from 'styled-components'
 import cathead from './yologo.png'
 
 const Logo = styled.h1`

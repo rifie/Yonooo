@@ -13,6 +13,10 @@ body { background-color: #fff; font-family: 'Poppins', sans-serif !important;}
 .content {
    max-width: 600px; text-align: center;
 }
+.indexcontent {
+  max-width: 680px; text-align: center; margin : auto; padding : 20px;
+}
+
 .mr20 { margin-right : 20px;}
 h3.affirms {
   font-family: 'Gochi Hand', sans-serif;
