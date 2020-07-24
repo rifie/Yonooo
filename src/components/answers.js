@@ -55,7 +55,7 @@ ReactDOM.render(answer,
 
 export default function Answers() {
   return <div>
-          <Tagme>Just think about question. E.g "Do I need to buy Air Jordan?"</Tagme>
+          <Tagme>Just think about question. E.g "Do I need to send her a flower?"</Tagme>
           <OneAnswer><div id="answerDisplay"></div></OneAnswer>
       <TheButton onClick={theAnswer} className="btn">ASK ME!</TheButton>
   </div>

@@ -39,7 +39,7 @@ export default function About() {
       <Container>
         <Mycontents>
           <Mycontentheader>About Yonooo</Mycontentheader>
-      <Mycontentp>Yonooo, (comes from Yes or No, isn't obvious?) is a tool to help you decide everything in life on daily basis. Logic and irrationality couldn't help? Too much analyzing? Your emotion radar seems off? Use Yonooo. Just think of a question and tap the button, in just a sec, you got the answer. Please use it in dire situation. Win-win. 
+      <Mycontentp>Yonooo, (comes from Yes or No, isn't obvious?) is an instant Yes/No button for deciding things . Too much analyzing? Your emotion radar seems off? Use Yonooo. Just think of a question and tap the button, in just a sec, you got the answer. Please use it in dire situation. Win-win. 
 </Mycontentp>
 
 <Mycontentp>All answers are copied from Magic Eight Ball answers and added mine. Just for fun.</Mycontentp>
@@ -63,9 +63,9 @@ export default function About() {
 
   <ul className="ml20">
     <li className="mb20">Yonooo is design and build by Syarifah Riefandania, you can call me Rifie. I love front-end technology!  <a href="http://twitter.com/rifie">Follow my Twitter!</a></li>
-<li className="mb20">This app is made with React with Gatsby and hosted at lovely Vercel.</li>
-<li className="mb20">Styled Component for helping on making my own component rather than to use Material UI or anything.</li>
-<li className="mb20">Bulma for layout</li>
+<li className="mb20">This app is made with <a href="https://reactjs.org/">React</a> with <a href="https://www.gatsbyjs.org/">Gatsby</a> and hosted at lovely <a href="https://vercel.app">Vercel.</a></li>
+<li className="mb20"><a href="https://styled-components.com/">Styled Component</a> for helping on making my own component rather than to use Material UI or anything.</li>
+<li className="mb20"><a href="http://bulma.io">Bulma</a> for layout</li>
 <li className="mb20">Good weekend, random Spotify playlist and Flores coffee</li>
 <li className="mb20"> I am using Trello for task management, see it public here : <a href="https://trello.com/b/ZXB94AIT/yonoooxyz">Yonooo Trello</a></li>
 </ul>
