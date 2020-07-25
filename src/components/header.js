@@ -42,8 +42,6 @@ export default function Header(data) {
 <meta property="twitter:image" content="https://yonooo.xyz/IG2_xyz.jpg" />
 
 
-
-
 </Helmet>
 
       </div>
