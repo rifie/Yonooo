@@ -20,7 +20,7 @@ export default function Header(data) {
         <Container>
          <a href="/" title="Yonooo"><img src={cathead} width="60" alt="Yonooo"/></a>
           <Logo>Yonooo</Logo>
-          <p>Get instant answer without thinking.</p>
+          <p>Get instant answer without overthinking.</p>
         </Container>
 
 
