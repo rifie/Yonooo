@@ -25,20 +25,20 @@ export default function Header(data) {
 
 
         <Helmet>
-<title>Yonooo. Get instant answer without thinking.</title>
-<meta name="title" content="Yonooo. Get instant answer without thinking." />
-<meta name="description" content="Yonooo is an instant answer generator for faster the decision making" />
+<title>Yonooo. Get instant answer without overthinking.</title>
+<meta name="title" content="Yonooo. Get instant answer without overthinking." />
+<meta name="description" content="Yonooo is an instant answer generator for faster decision making" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://yonooo.xyz/"/>
-<meta property="og:title" content="Yonooo. Get instant answer without thinking."/>
-<meta property="og:description" content="Yonooo is an instant answer generator for faster the decision making"/>
+<meta property="og:title" content="Yonooo. Get instant answer without overthinking."/>
+<meta property="og:description" content="Yonooo is an instant answer generator for faster decision making"/>
 <meta property="og:image" content="https://yonooo.xyz/IG2_xyz.jpg"/>
 <meta property="og:image:width" content="800" />
 <meta property="og:image:height" content="400" />
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://yonooo.xyz" />
-<meta property="twitter:title" content="Yonooo. Get instant answer without thinking." />
-<meta property="twitter:description" content="Yonooo is an instant answer generator for faster the decision making" />
+<meta property="twitter:title" content="Yonooo. Get instant answer without overthinking." />
+<meta property="twitter:description" content="Yonooo is an instant answer generator for faster decision making" />
 <meta property="twitter:image" content="https://yonooo.xyz/IG2_xyz.jpg" />
 
 
