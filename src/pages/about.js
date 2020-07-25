@@ -39,14 +39,14 @@ export default function About() {
       <Container>
         <Mycontents>
           <Mycontentheader>About Yonooo</Mycontentheader>
-      <Mycontentp>Yonooo, (comes from Yes or No, isn't obvious?) is an instant Yes/No button for deciding things . Too much analyzing? Your emotion radar seems off? Use Yonooo. Just think of a question and tap the button, in just a sec, you got the answer. Please use it in dire situation. Win-win. 
+      <Mycontentp>Yonooo, (comes from Yes or No, isn't obvious?) is an instant answer generator for faster the decision making. Too much analyzing? Your emotion radar seems off? Use Yonooo. Just think of a question and tap the button. Please use it in dire situation. Win-win. 
 </Mycontentp>
 
 <Mycontentp>All answers are copied from Magic Eight Ball answers and added mine. Just for fun.</Mycontentp>
 
 <Mycontentheader>Outcome</Mycontentheader>
 
-<Mycontentp>The outcome of this app for me personally is to learn React and GraphQL in the short time with Gatsby, it a fun way</Mycontentp>
+<Mycontentp>The outcome of this app for me personally is to learn ReactJS, in a fun way</Mycontentp>
 
 <Mycontentheader>A random positivity</Mycontentheader>
 

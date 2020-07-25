@@ -27,22 +27,27 @@ let answers =[
 '"It is obvious."'
 ];
 
-const { Tagme, OneAnswer, TheButton } = newStyleAnswer();
+const { Egs, Tagme, OneAnswer, TheButton } = newStyleAnswer();
 
 function newStyleAnswer() {
   const TheButton = styled.a`
 font-size :1.5em;
 `;
   const OneAnswer = styled.h4`
-font-size : 2.8em; 
+font-size : 2.4em; 
 color : #222; 
 margin : 30px 0 30px 0;  
 font-family: 'Gochi Hand', sans-serif;
 `;
   const Tagme = styled.small`
-color: #b4b4b4; font-size : 14px;
+color: #636466; font-size : 16px; clear: both;
 `;
-  return { Tagme, OneAnswer, TheButton };
+
+const Egs = styled.small`
+color: #c8c8c8; font-size : 14px;
+`;
+
+  return { Egs, Tagme, OneAnswer, TheButton };
 }
 
 function theAnswer() {
@@ -55,8 +60,10 @@ ReactDOM.render(answer,
 
 export default function Answers() {
   return <div>
-          <Tagme>Just think about question. E.g "Do I need to send her a flower?"</Tagme>
+          <Tagme>Hello master! <br/>Think about a question in mind and tap the button to know the answer!</Tagme>
+          <Egs><br /> E.g "Do i need to go out and meet my girlfriend?"</Egs>
+          
           <OneAnswer><div id="answerDisplay"></div></OneAnswer>
-      <TheButton onClick={theAnswer} className="btn">ASK ME!</TheButton>
+      <TheButton onClick={theAnswer} className="btn">SHOW ME!</TheButton>
   </div>
 }
